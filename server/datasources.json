@@ -1,10 +1,10 @@
 {
-  "db": {
+  "test": {
     "name": "db",
     "connector": "memory"
   },
   "givesomebody": {
-    "host": "localhost",
+    "host": "docker.me",
     "port": 27017,
     "database": "givesomebody",
     "username": "",
