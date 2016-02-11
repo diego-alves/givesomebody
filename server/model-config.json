@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "givesomebody"
+  },
+  "AccessToken": {
+    "dataSource": "givesomebody",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "givesomebody",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "givesomebody",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "givesomebody",
+    "public": false
+  },
+  "Gift": {
+    "dataSource": "givesomebody",
+    "public": true
+  },
+  "Donor": {
+    "dataSource": "givesomebody",
+    "public": true
+  },
+  "Receiver": {
+    "dataSource": "givesomebody",
+    "public": true
+  }
+}
